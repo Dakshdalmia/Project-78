@@ -1,16 +1,15 @@
 import firebase from "firebase";
-require("@firebase/firestore");
+//require("@firebase/firestore");
 
 //Paste your firebaseConfig here
 const firebaseConfig = {
-    apiKey: "AIzaSyArpVDhw-porXxxSK-2WmUrSr6ORjbB40I",
-    authDomain: "fruit-catcher-1bbdf.firebaseapp.com",
-    databaseURL: "https://fruit-catcher-1bbdf-default-rtdb.firebaseio.com",
-    projectId: "fruit-catcher-1bbdf",
-    storageBucket: "fruit-catcher-1bbdf.appspot.com",
-    messagingSenderId: "585240401204",
-    appId: "1:585240401204:web:fc6f04d85266e32ba7c161"
-  };
+  apiKey: "AIzaSyCPIou1LOqQ6HJc3lNG6I9mMlr8wXHsmY0",
+  authDomain: "e-ride-f4568.firebaseapp.com",
+  projectId: "e-ride-f4568",
+  storageBucket: "e-ride-f4568.appspot.com",
+  messagingSenderId: "630059192537",
+  appId: "1:630059192537:web:19f3c1ac16ac924da16ec8"
+};
 
 
 firebase.initializeApp(firebaseConfig);
